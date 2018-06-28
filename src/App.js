@@ -10,12 +10,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Project 1</h1>
-        </header>
-
-        <h2>Kae Ramirez: Project 1</h2>
-        <p>StudentID: A00923169</p>
-        
+          <h1 className="App-title">StopWatch</h1>
+        </header>        
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-6 ">

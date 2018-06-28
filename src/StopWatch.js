@@ -1,6 +1,6 @@
 /**
- * Project 1: Stop Watch
  * By Kae Ramirez
+ * https://github.com/iamkaith/react-stop-watch
  */
 
 import React, { Component } from 'react';
@@ -70,6 +70,8 @@ class StopWatch extends Component {
         clearInterval(this.watch);
         console.log("Watch reset.")
     }
+
+    // todo move formatting out of renders
   
     render() { 
 
